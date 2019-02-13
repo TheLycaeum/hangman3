@@ -54,7 +54,8 @@ def ask_to_type(word):
     else:
         print("please enter a alphabetic in lower ")
         return s
-if '__name__' == '__main__':
+
+if __name__ == '__main__':
     main()
 
 print("Welcome to hangman game")
