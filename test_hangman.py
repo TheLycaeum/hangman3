@@ -33,3 +33,9 @@ def test_guess_word():
     assert ret == 8
     assert guesses == ['x', 'l', 'e', 'p']
 
+def test_guess_word_repetitions():
+    guesses = ['x']
+    ret = hangman.guess_word('elephant', guesses, 'x', 8)
+    assert ret == 8
+    assert guesses == ['x']
+
