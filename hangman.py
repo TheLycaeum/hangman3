@@ -54,8 +54,6 @@ def main():
     turns = 10
     while True:
         mask = mask_word(secret_word, guesses)
-        print(secret_word)
-        print(mask)
         if "*" not in mask:
             print("\n\U0001F44d\U0001f44D You did it")
             break
